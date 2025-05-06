@@ -17,8 +17,8 @@ variables:
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
-  pool:
-    name: 'azureagent'
+pool:
+ name: 'azure agent'
 
 stages:
 - stage: Build
